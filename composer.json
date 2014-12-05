@@ -1,0 +1,22 @@
+{
+    "name": "carew/plugin-s3",
+    "description": "carew plugin to upload the content on AWS S3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grégoire Pineau",
+            "email": "lyrixx@lyrixx.info"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "~2.7"
+    },
+    "autoload": {
+        "classmap": ["."]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
